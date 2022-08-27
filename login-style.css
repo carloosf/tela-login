@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    height: 10vh;
+    border-bottom: 1px solid rgb(89, 73, 73);
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    background-size: 100%;
+}
+
+form {
+    border: 0;
+    margin-top: 5%;
+    margin-right: 34%;
+}
+
+form input {
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #475f65;
+}
+
+.infobutton {
+
+    max-width: 50%;
+    color: #d7dfe1;
+    background-color: rgb(84, 83, 81);
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    transition: 1s;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.infobutton:hover {
+    color: #364348;
+    background-color: wheat;
+
+}
+
+.ncadastro {
+    font-size: medium;
+    color: #535f61;
+    text-decoration: underline;
+}
